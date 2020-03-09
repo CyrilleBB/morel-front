@@ -1,0 +1,44 @@
+html, body, #root {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+.signup .container {
+    margin-top: 10vh;
+}
+
+.image-accueil {
+    background: center / cover url('../src/assets/caveTommes.jpg');
+}
+
+.image-shop {
+    background: center / cover url('../src/assets/alexander-maasch-KaK2jp8ie8s-unsplash.jpg');
+}
+
+.panier:hover {
+    cursor: pointer;
+    color: lightskyblue !important;
+}
+
+.image-width {
+    width: 100%;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.removeProduct:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+@media (max-width: 425px) {
+    .search-flex-order {
+        order: 3;
+    }
+}
